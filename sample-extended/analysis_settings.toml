@@ -1,7 +1,7 @@
 [analysis]
 min_supports = [2, 3, 4]
 jump_distances = [0.0, 1.0, 1.5]
-grami_alphas = [0.2, 0.1, 0.01, 0.001]
+grami_alphas = [1.0, 0.2, 0.1, 0.01, 0.001]
 gis_configs = [
     ["gpitch", "offset"],
     ["pitch", "offset"],
