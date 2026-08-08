@@ -1,6 +1,6 @@
 [analysis]
 min_supports = [6, 4]
-jump_distances = [0.5]
+jump_distances = [0.0]
 grami_alphas = [1.0]
 grami_max_fsm_size = 9
 gis_configs = [
