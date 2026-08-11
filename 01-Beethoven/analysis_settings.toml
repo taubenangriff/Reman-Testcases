@@ -1,0 +1,15 @@
+[analysis]
+min_supports = [6, 8, 10, 12]
+jump_distances = [0.0, 1.0]
+grami_alphas = [1.0]
+grami_max_fsm_size = 9
+gis_configs = [
+    ["gpitch"],
+    ["pitch"],
+    ["gpitch", "offset"],
+    ["pitch", "offset"],
+    ["pc", "offset"],
+    ["gpc", "offset"],
+]
+connect_same_time_options = [false, true]
+window_size = 4.0
