@@ -1,7 +1,7 @@
 [analysis]
-min_supports = [4]
+miners = ["gspan"]
+min_supports = [10, 8, 6]
 jump_distances = [0.0, 0.5]
-grami_alphas = [1.0]
 grami_max_fsm_size = 9
 gis_configs = [
     ["gpitch", "offset"],
@@ -9,5 +9,4 @@ gis_configs = [
     ["pc", "offset"],
     ["gpc", "offset"]
 ]
-connect_same_time_options = [true]
-window_size = 4.0
+connect_same_time_options = [true, false]
