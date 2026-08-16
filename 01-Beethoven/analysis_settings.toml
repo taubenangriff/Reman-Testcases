@@ -1,6 +1,6 @@
 [analysis]
 miners = ["grami"]
-min_supports = [6, 8]
+min_supports = [6]
 jump_distances = [0.0, 1.0]
 grami_max_fsm_size = 9
 gis_configs = [
