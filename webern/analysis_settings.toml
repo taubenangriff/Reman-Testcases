@@ -1,5 +1,5 @@
 [analysis]
-miners = ["grami"]
+miners = ["gspan"]
 min_supports = [12, 10, 8, 6]
 jump_distances = [0.0]
 grami_max_fsm_size = 3
