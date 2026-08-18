@@ -1,7 +1,7 @@
 [analysis]
-miners = ["gspan"]
+miners = ["gspan", "grami"]
 min_supports = [10, 8, 6]
-jump_distances = [0.0, 0.5]
+jump_distances = [0.0]
 grami_max_fsm_size = 9
 gis_configs = [
     ["gpitch", "offset"],

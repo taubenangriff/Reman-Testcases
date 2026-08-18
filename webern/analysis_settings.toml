@@ -1,0 +1,12 @@
+[analysis]
+miners = ["gspan", "grami"]
+min_supports = [12, 10, 8, 6]
+jump_distances = [0.0, 0.75]
+grami_max_fsm_size = 3
+gis_configs = [
+    ["gpitch", "offset"],
+    ["pitch", "offset"],
+    ["pc", "offset"],
+    ["pc", "offset"],
+]
+connect_same_time_options = [true, false]
