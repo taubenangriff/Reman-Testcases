@@ -8,7 +8,7 @@
     <creator type="composer">Composer / arranger</creator>
     <encoding>
       <software>MuseScore Studio 4.7.4</software>
-      <encoding-date>2026-08-18</encoding-date>
+      <encoding-date>2026-08-19</encoding-date>
       <supports element="accidental" type="yes"/>
       <supports element="beam" type="yes"/>
       <supports element="print" attribute="new-page" type="yes" value="yes"/>
@@ -16,7 +16,7 @@
       <supports element="stem" type="yes"/>
       </encoding>
     <miscellaneous>
-      <miscellaneous-field name="creationDate">2026-08-18</miscellaneous-field>
+      <miscellaneous-field name="creationDate">2026-08-19</miscellaneous-field>
       <miscellaneous-field name="platform">Linux</miscellaneous-field>
       </miscellaneous>
     </identification>
@@ -87,7 +87,7 @@
       </score-part>
     </part-list>
   <part id="P1">
-    <measure number="1" width="185.36">
+    <measure number="1" width="178.56">
       <print>
         <system-layout>
           <system-margins>
@@ -111,32 +111,40 @@
           <line>2</line>
           </clef>
         </attributes>
-      <note default-x="97.38" default-y="-35">
+      <note default-x="92.04" default-y="-20">
+        <rest/>
+        <duration>1</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        </note>
+      <note default-x="110.8" default-y="-30">
         <pitch>
-          <step>F</step>
+          <step>G</step>
           <octave>4</octave>
           </pitch>
         <duration>1</duration>
         <voice>1</voice>
         <type>16th</type>
-        <accidental cautionary="yes" parentheses="no">natural</accidental>
-        <stem>down</stem>
+        <stem>up</stem>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
         </note>
-      <note default-x="97.38" default-y="-5">
-        <chord/>
+      <note default-x="139.56" default-y="-40">
         <pitch>
           <step>E</step>
-          <octave>5</octave>
+          <octave>4</octave>
           </pitch>
         <duration>1</duration>
         <voice>1</voice>
         <type>16th</type>
-        <accidental cautionary="yes" parentheses="no">natural</accidental>
-        <stem>down</stem>
+        <stem>up</stem>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
         </note>
-      <note default-x="126.14" default-y="-15">
+      <note default-x="139.56" default-y="0">
+        <chord/>
         <pitch>
-          <step>C</step>
+          <step>F</step>
           <alter>1</alter>
           <octave>5</octave>
           </pitch>
@@ -144,13 +152,7 @@
         <voice>1</voice>
         <type>16th</type>
         <accidental>sharp</accidental>
-        <stem>down</stem>
-        </note>
-      <note default-x="144.1" default-y="-20">
-        <rest/>
-        <duration>1</duration>
-        <voice>1</voice>
-        <type>16th</type>
+        <stem>up</stem>
         </note>
       <barline location="right">
         <bar-style>light-heavy</bar-style>

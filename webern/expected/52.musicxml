@@ -8,7 +8,7 @@
     <creator type="composer">Composer / arranger</creator>
     <encoding>
       <software>MuseScore Studio 4.7.4</software>
-      <encoding-date>2026-08-18</encoding-date>
+      <encoding-date>2026-08-19</encoding-date>
       <supports element="accidental" type="yes"/>
       <supports element="beam" type="yes"/>
       <supports element="print" attribute="new-page" type="yes" value="yes"/>
@@ -16,7 +16,7 @@
       <supports element="stem" type="yes"/>
       </encoding>
     <miscellaneous>
-      <miscellaneous-field name="creationDate">2026-08-18</miscellaneous-field>
+      <miscellaneous-field name="creationDate">2026-08-19</miscellaneous-field>
       <miscellaneous-field name="platform">Linux</miscellaneous-field>
       </miscellaneous>
     </identification>
@@ -69,6 +69,14 @@
     <word-font font-family="Edwin" font-size="10"/>
     <lyric-font font-family="Edwin" font-size="10"/>
     </defaults>
+  <credit page="1">
+    <credit-type>title</credit-type>
+    <credit-words default-x="600.16" default-y="1611.01" justify="center" valign="top" font-size="22">Untitled score</credit-words>
+    </credit>
+  <credit page="1">
+    <credit-type>composer</credit-type>
+    <credit-words default-x="1114.62" default-y="1511.01" justify="right" valign="bottom">Composer / arranger</credit-words>
+    </credit>
   <part-list>
     <score-part id="P1">
       <part-name print-object="no">Violin</part-name>
@@ -87,14 +95,14 @@
       </score-part>
     </part-list>
   <part id="P1">
-    <measure number="1" width="185.36">
+    <measure number="1" width="178.56">
       <print>
         <system-layout>
           <system-margins>
             <left-margin>50</left-margin>
             <right-margin>0</right-margin>
             </system-margins>
-          <top-system-distance>70</top-system-distance>
+          <top-system-distance>170</top-system-distance>
           </system-layout>
         </print>
       <attributes>
@@ -111,32 +119,38 @@
           <line>2</line>
           </clef>
         </attributes>
-      <note default-x="97.38" default-y="-35">
+      <note default-x="92.04" default-y="-20">
+        <rest/>
+        <duration>1</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        </note>
+      <note default-x="110.8" default-y="-40">
         <pitch>
-          <step>F</step>
+          <step>E</step>
           <octave>4</octave>
           </pitch>
         <duration>1</duration>
         <voice>1</voice>
         <type>16th</type>
-        <accidental cautionary="yes" parentheses="no">natural</accidental>
-        <stem>down</stem>
+        <stem>up</stem>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
         </note>
-      <note default-x="97.38" default-y="-5">
+      <note default-x="110.8" default-y="-30">
         <chord/>
         <pitch>
-          <step>E</step>
-          <octave>5</octave>
+          <step>G</step>
+          <octave>4</octave>
           </pitch>
         <duration>1</duration>
         <voice>1</voice>
         <type>16th</type>
-        <accidental cautionary="yes" parentheses="no">natural</accidental>
-        <stem>down</stem>
+        <stem>up</stem>
         </note>
-      <note default-x="126.14" default-y="5">
+      <note default-x="139.56" default-y="0">
         <pitch>
-          <step>G</step>
+          <step>F</step>
           <alter>1</alter>
           <octave>5</octave>
           </pitch>
@@ -144,13 +158,9 @@
         <voice>1</voice>
         <type>16th</type>
         <accidental>sharp</accidental>
-        <stem>down</stem>
-        </note>
-      <note default-x="144.1" default-y="-20">
-        <rest/>
-        <duration>1</duration>
-        <voice>1</voice>
-        <type>16th</type>
+        <stem>up</stem>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
         </note>
       <barline location="right">
         <bar-style>light-heavy</bar-style>

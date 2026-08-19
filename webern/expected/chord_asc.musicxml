@@ -8,7 +8,7 @@
     <creator type="composer">Composer / arranger</creator>
     <encoding>
       <software>MuseScore Studio 4.7.4</software>
-      <encoding-date>2026-08-18</encoding-date>
+      <encoding-date>2026-08-19</encoding-date>
       <supports element="accidental" type="yes"/>
       <supports element="beam" type="yes"/>
       <supports element="print" attribute="new-page" type="yes" value="yes"/>
@@ -16,7 +16,7 @@
       <supports element="stem" type="yes"/>
       </encoding>
     <miscellaneous>
-      <miscellaneous-field name="creationDate">2026-08-18</miscellaneous-field>
+      <miscellaneous-field name="creationDate">2026-08-19</miscellaneous-field>
       <miscellaneous-field name="platform">Linux</miscellaneous-field>
       </miscellaneous>
     </identification>
@@ -69,6 +69,14 @@
     <word-font font-family="Edwin" font-size="10"/>
     <lyric-font font-family="Edwin" font-size="10"/>
     </defaults>
+  <credit page="1">
+    <credit-type>title</credit-type>
+    <credit-words default-x="600.16" default-y="1611.01" justify="center" valign="top" font-size="22">Untitled score</credit-words>
+    </credit>
+  <credit page="1">
+    <credit-type>composer</credit-type>
+    <credit-words default-x="1114.62" default-y="1511.01" justify="right" valign="bottom">Composer / arranger</credit-words>
+    </credit>
   <part-list>
     <score-part id="P1">
       <part-name print-object="no">Violin</part-name>
@@ -87,14 +95,14 @@
       </score-part>
     </part-list>
   <part id="P1">
-    <measure number="1" width="192.38">
+    <measure number="1" width="164.04">
       <print>
         <system-layout>
           <system-margins>
             <left-margin>50</left-margin>
             <right-margin>0</right-margin>
             </system-margins>
-          <top-system-distance>70</top-system-distance>
+          <top-system-distance>170</top-system-distance>
           </system-layout>
         </print>
       <attributes>
@@ -111,14 +119,19 @@
           <line>2</line>
           </clef>
         </attributes>
-      <direction placement="above">
-        <direction-type>
-          <words default-y="10.21" relative-y="10">unten
-</words>
-          <words></words>
-          </direction-type>
-        </direction>
-      <note default-x="97.38" default-y="-35">
+      <note default-x="92.04" default-y="-50">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note default-x="108.54" default-y="-35">
         <pitch>
           <step>F</step>
           <octave>4</octave>
@@ -126,38 +139,21 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>16th</type>
-        <accidental cautionary="yes" parentheses="no">natural</accidental>
-        <stem>down</stem>
+        <stem>up</stem>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         </note>
-      <note default-x="97.38" default-y="-5">
-        <chord/>
+      <note default-x="125.04" default-y="-20">
         <pitch>
-          <step>E</step>
-          <octave>5</octave>
-          </pitch>
-        <duration>1</duration>
-        <voice>1</voice>
-        <type>16th</type>
-        <accidental cautionary="yes" parentheses="no">natural</accidental>
-        <stem>down</stem>
-        </note>
-      <note default-x="124.5" default-y="-25">
-        <pitch>
-          <step>A</step>
-          <alter>-1</alter>
+          <step>B</step>
           <octave>4</octave>
           </pitch>
         <duration>1</duration>
         <voice>1</voice>
         <type>16th</type>
-        <accidental>flat</accidental>
         <stem>up</stem>
-        </note>
-      <note default-x="151.12" default-y="-20">
-        <rest/>
-        <duration>1</duration>
-        <voice>1</voice>
-        <type>16th</type>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
         </note>
       <barline location="right">
         <bar-style>light-heavy</bar-style>
