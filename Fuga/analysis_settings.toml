@@ -13,4 +13,4 @@ gis_configs = [
     ["gpitch", "offset"],
     ["pitch", "offset"],
 ]
-connect_same_time_options = [false, true]
+connect_same_time_options = [false]
