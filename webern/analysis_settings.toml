@@ -5,9 +5,9 @@ jump_distances = [0.8]
 grami_max_fsm_size = 3
 gis_configs = [
     ["pitch", "offset"],
-    ["pitch"]
+    ["pitch"],
     ["gpitch", "offset"],
-    ["gpitch"]
+    ["gpitch"],
     ["gpc", "offset"],
     ["gpc"]
 ]
