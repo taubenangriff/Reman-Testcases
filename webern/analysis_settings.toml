@@ -4,7 +4,11 @@ min_supports = [12,10,8,6]
 jump_distances = [0.8]
 grami_max_fsm_size = 3
 gis_configs = [
-    ["pc", "offset"],
-    ["pc"]
+    ["pitch", "offset"],
+    ["pitch"]
+    ["gpitch", "offset"],
+    ["gpitch"]
+    ["gpc", "offset"],
+    ["gpc"]
 ]
 connect_same_time_options = [false]
