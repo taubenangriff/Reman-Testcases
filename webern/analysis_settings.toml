@@ -9,6 +9,8 @@ gis_configs = [
     ["gpitch", "offset"],
     ["gpitch"],
     ["gpc", "offset"],
-    ["gpc"]
+    ["gpc"],
+    ["pc"],
+    ["pc", "offset"]
 ]
-connect_same_time_options = [false]
+connect_same_time_options = [true]
