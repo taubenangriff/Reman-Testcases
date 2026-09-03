@@ -1,9 +1,0 @@
-[analysis]
-miners = ["gspan", "grami"]
-min_supports = [12]
-jump_distances = [1.0]
-grami_max_fsm_size = 9
-gis_configs = [
-    ["pc", "offset"]
-]
-connect_same_time_options = [false]
