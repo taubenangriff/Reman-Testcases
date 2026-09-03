@@ -1,6 +1,6 @@
 [analysis]
 miners = ["gspan"]
-min_supports = [12,10,8,6]
+min_supports = [6]
 jump_distances = [0.8]
 grami_max_fsm_size = 3
 gis_configs = [
