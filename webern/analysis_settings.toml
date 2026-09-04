@@ -1,14 +1,9 @@
 [analysis]
 miners = ["gspan"]
-min_supports = [6]
+min_supports = [8]
 jump_distances = [0.8]
 grami_max_fsm_size = 3
 gis_configs = [
-    ["pitch", "offset"],
-    ["pitch"],
-    ["gpitch", "offset"],
-    ["gpitch"],
-    ["gpc", "offset"],
     ["gpc"],
     ["pc"],
     ["pc", "offset"]
